@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    color: white;
+    align-items: center;
+    gap: 50px;
+    background-color: orange;
+}
+.ul{
+    display: flex;
+    gap: 20px;
+}
+.ul li{
+    list-style: none;
+}
+.ul li a{
+    color: white;
+    text-decoration: none;
+}
+.topbar-view{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-left: auto;margin-right: auto;
+}
+.srchDiv{
+    margin-left: 20px;
+    display: flex;
+    width: 85%;
+    height: 70%;
+}
+.srchDiv input{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid orange;
+}
+.srchDiv button{
+    width: 100px;
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+}
+.main-item-box{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pdd{
+    padding: 10px;
+}
+.txtPrice{
+    font-size: 18px;
+    margin-top: 10px;
+    color: orange;
+}
+.avaiDiv{
+    width: 100%;
+    padding: 7px;
+    background-color: orange;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.card-item{
+    width: 250px;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    background-color: whitesmoke;
+    height: 50vh;
+}
+.card-item:hover{
+    box-shadow: 4px 5px 6px rgb(170, 168, 168);
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.det-img{
+    width: 50%;
+    height: 50vh;
+}
+.detail-main{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.det-det p{
+    font-size: 20px;
+}
+.det-det{
+    width: 50%;
+}
+.av1{
+    background-color: rgb(235, 214, 175);
+}
+.formBuy{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+.formBuy div{
+    width: 100%;
+}
+.formBuy div input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid orange;
+}
+.formBuy div button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book-item{
+    padding: 20px;
+    border-bottom: 1px dotted orange;
+}
+.posBox-container h2{
+    padding: 20px;
+}
+.container-admin{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: rgb(211, 139, 7);
+    justify-content: center;
+}
+.navbar1{
+    width: 80%;
+    padding: 10px;
+    color: white;
+}
+.navbar1 ul{
+    display: flex;
+    margin-top: 10px;
+    gap: 30px;
+}
+.navbar1 ul li{
+    list-style: none;
+}
+.navbar1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.container-box{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.table1{
+    width: 100%;
+    
+}
+.imgDivTable{
+    width: 80px;
+    height: 60px;
+}
+.table1 thead{
+    background-color: rgb(211, 139, 7);
+}
+.table1 thead th{
+    padding: 7px;
+    text-align: start;
+    color: white;
+}
+.table1 tbody td{
+    padding: 5px;
+    border-bottom: 1px dotted black;
+}
+.addForm{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.addDiv{
+    margin-bottom: 10px;
+}
+.addDiv input{
+    padding: 6px;
+}
+.addDiv button{
+    width: 200px;
+    background-color: rgb(211, 139, 7);
+    color: white;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.heiDiv{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerMat{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blackCOntainer{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #6786;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup{
+    background-color: rgb(211, 139, 7);
+    color: white;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 2px 4px 4px whitesmoke;
+    border-radius: 4px;
+}
+.popup button{
+    width: 100px;
+    padding: 8px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(148, 100, 11);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btnAdd{
+    background-color: rgb(148, 100, 11);
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+.btnAdd:hover{
+    background-color: rgb(99, 66, 5);
+}
+.btnDel{
+    background-color: brown;
+}
+.btnBuy{
+    background-color: rgb(148, 100, 11);
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 30px;
+}
